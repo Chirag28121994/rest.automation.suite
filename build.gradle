@@ -57,11 +57,6 @@ tasks.withType(Javadoc) {
     options.encoding = 'UTF-8'
 }
 
-bootJar {
-    archiveFileName = 'app.jar'
-}
-
-
 tasks.named('bootJar') {
     archiveFileName = 'app.jar'
 }
