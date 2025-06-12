@@ -24,12 +24,7 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/classes
-build/generated
-build/reports
-build/resources
-build/tmp
-build
+/build
 !**/src/main/**/build/
 !**/src/test/**/build/
 

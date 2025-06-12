@@ -1,5 +1,6 @@
 package com.example.rest.automation.suite.service;
 
+import com.example.rest.automation.suite.constants.Constants;
 import com.example.rest.automation.suite.model.ExecutionParams;
 import com.example.rest.automation.suite.model.TestRunResult;
 import org.slf4j.Logger;
@@ -58,12 +59,13 @@ public class ApiTestRunnerService {
             cmdList.add("--debug");
         }
         log.info("ProcessBuilder command list: {}", cmdList);
-        log.info("ProcessBuilder working directory: {}", USER_DIR);
+        String applicationPath = new java.io.File(DOCKER_CONTAINER_PATH).exists() ? DOCKER_CONTAINER_PATH : Constants.USER_DIR;
+        log.info("ProcessBuilder working directory: {}", applicationPath);
         StringBuilder output = new StringBuilder();
         int exitCode = -1;
         try {
             ProcessBuilder pb = new ProcessBuilder(cmdList);
-            pb.directory(new java.io.File(USER_DIR));
+            pb.directory(new java.io.File(applicationPath));
             pb.redirectErrorStream(true);
             Process process = pb.start();
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -83,7 +85,7 @@ public class ApiTestRunnerService {
                 log.error("Test process failed. Output: {}", output);
                 return new TestRunResult(output.toString(), exitCode, "Test process failed", summary, duration, logs.toString(), null);
             }
-            return new TestRunResult(output.toString(), exitCode, null, summary, duration, logs.toString(), REPORT_DIR);
+            return new TestRunResult(output.toString(), exitCode, null, summary, duration, logs.toString(), "REPORT URL is TODO");
         } catch (IOException e) {
             log.error("IOException during test run: {}", e.getMessage(), e);
             return new TestRunResult(output.toString(), exitCode, "IOException: " + e.getMessage(), null, null, null, null);

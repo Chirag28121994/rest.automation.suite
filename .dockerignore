@@ -1,0 +1,13 @@
+# Ignore git repo and IDE configs
+.git
+.gitignore
+.idea/
+.vscode/
+
+# Ignore build output (you’ll build inside container anyway)
+build/
+out/
+
+# Ignore logs and temp files
+*.log
+*.tmp
