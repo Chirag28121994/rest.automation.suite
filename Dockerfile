@@ -8,6 +8,8 @@ WORKDIR /home/gradle/project
 # Disable Gradle daemon (recommended in CI/container)
 ENV GRADLE_OPTS="-Dorg.gradle.daemon=false"
 
+ENV GRADLE_OPTS="-Xmx2g -Dorg.gradle.daemon=false"
+
 # Make gradlew executable
 RUN chmod +x gradlew
 

@@ -29,4 +29,13 @@ public class ExecutionParams {
     public void setDebug(Boolean debug) {
         this.debug = debug;
     }
+
+    @Override
+    public String toString() {
+        return "ExecutionParams{" +
+                "testName='" + testName + '\'' +
+                ", groups='" + groups + '\'' +
+                ", debug=" + debug +
+                '}';
+    }
 }
