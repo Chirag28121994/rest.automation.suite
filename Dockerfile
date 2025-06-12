@@ -8,4 +8,6 @@ RUN gradle bootJar -x test
 FROM eclipse-temurin:17-jdk
 WORKDIR /app
 COPY --from=build /home/gradle/project/build/libs/*.jar app.jar
+COPY --from=build /app /app
+#Include full source tree so gradlew exists
 ENTRYPOINT ["java", "-jar", "app.jar"]
