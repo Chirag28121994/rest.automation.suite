@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rest-automation-suite
+    env: docker
+    plan: free
+    repo: https://github.com/Chirag28121994/rest.automation.suite
+    branch: main
+    autoDeploy: true
+
