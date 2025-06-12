@@ -22,7 +22,7 @@ public class ApiTestRunnerService {
             return new TestRunResult("", -1, "execution Params map can't be null");
         }
 
-        String gradleCmd = IS_WINDOWS ? "gradlew.bat" : "./graldew";
+        String gradleCmd = IS_WINDOWS ? "gradlew.bat" : "./gradlew";
 
         StringBuilder finalCommand = new StringBuilder(gradleCmd);
         finalCommand.append(" clean test ");
