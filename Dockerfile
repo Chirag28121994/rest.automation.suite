@@ -3,6 +3,9 @@ FROM gradle:8.5-jdk17 AS build
 COPY --chown=gradle:gradle . /home/gradle/project
 WORKDIR /home/gradle/project
 
+# Set Gradle options to disable daemon
+ENV GRADLE_OPTS="-Dorg.gradle.daemon=false"
+
 # 🔧 Make gradlew executable
 RUN chmod +x gradlew
 
