@@ -57,8 +57,16 @@ tasks.withType(Javadoc) {
     options.encoding = 'UTF-8'
 }
 
-tasks.named('test') {
+bootJar {
     archiveFileName = 'app.jar'
+}
+
+
+tasks.named('bootJar') {
+    archiveFileName = 'app.jar'
+}
+
+tasks.named('test') {
     def groupsToRun = System.getProperty('groups')
     useTestNG() {
         if (groupsToRun != null && !groupsToRun.trim().isEmpty()) {
