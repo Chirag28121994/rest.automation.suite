@@ -1,0 +1,206 @@
+ñStandard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+Request method:	GET
+!Request URI:	https://google.com
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Thu, 12 Jun 2025 07:13:27 GMT
+Expires: -1
+#Cache-Control: private, max-age=0
+-Content-Type: text/html; charset=ISO-8859-1
+ıContent-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-yCaejhYMpMQta_P86Xt3Jg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+(Accept-CH: Sec-CH-Prefers-Color-Scheme
+EP3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Encoding: gzip
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+∞Set-Cookie: AEC=AVh_V2g8sO9EAVClHz44HOzttrl0yfiOPE_2NQmieyijsnYZkNIM_dU2_7s; expires=Tue, 09-Dec-2025 07:13:27 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+∂Set-Cookie: NID=524=WNqlcI8-PVdEenpiDDnpcc1zX_32YdYhIXyvlvFtLeK_vo-XhQN0E5QSB1T50aFdPqVos0qrWf0IUwF0H90aXvOhNDU19kHgsOwqpYAjh_Eo5x4THdig7nWdq2nGXsuLU8Th4Dzrv9zf2sIb-XbL3rmRzCWdxuj_qkisNtDCjCM0dK8qcjT0b729qU0b7rVdMvT0eCcGxQK-xGFFh2o; expires=Fri, 12-Dec-2025 07:13:27 GMT; path=/; domain=.google.com; HttpOnly
+9Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+F<html lang="en-IN" itemscope="" itemtype="http://schema.org/WebPage">
+	  <head>
+I    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+d    <meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"/>
+    <title>Google</title>
+’    <script nonce="yCaejhYMpMQta_P86Xt3Jg">(function(){var _g={kEI:'F35KaM7yBs-v5OUPpajzsQE',kEXPI:'0,202791,63,2,610013,301,490829,2396328,622,435,538661,78813,16105,344796,247320,42724,11106,5230575,36812643,25359337,7612,14110,65173,6752,23879,9139,4599,328,6225,64165,15048,8206,3292,4134,30379,28334,48904,5308,352,4100,8240,6540,3122,3,2745,3100,4614,5774,4310,2063,2603,6052,1274,11309,3050,2,13472,3261,2990,35,3420,2115,749,2491,2,8127,12107,658,1946,1102,1977,3604,11414,1733,4,3078,1543,2724,7,1784,78,2,11,354,4202,120,2,1010,8337,647,17,4205,4,4,3554,1247,384,561,3,863,2,5,2,112,486,3858,274,4,667,808,1163,2457,593,622,1,756,2526,181,2,82,1216,276,4,1,2,2,2,917,17,539,4,252,407,463,7,487,891,365,235,875,158,1578,366,3988,23,3,479,3052,87,1454,1399,422,941,1027,412,205,51,692,520,124,230,60,1712,86,17,4,1,266,75,6,3852,104,787,132,4,5,189,223,432,6,43,1322,48,244,249,363,80,7,154,85,1059,1634,1312,1826,131,439,769,474,1447,3,2,2,2,132,680,379,140,218,312,117,631,706,497,175,347,6,612,46,1,2,639,1,465,1,140,4,111,8,338,1126,2,2,664,479,118,252,567,7,934,364,35,99,709,589,816,41,1,1029,3,3,278,1,2,984,107,677,716,2,35,407,18,162,856,1,3,1,2,3,2,1,2,2,2,3,1,2,3,1,3,2,2,2,1,3,1,3,1,2,2,3,2,2,1,2,3,2,2,1,3,2,1,3,2,1,2,3,2,1,3,2,1,2,3,1,3,1,2,3,1,2,2,2,2,2,3,2,1,3,1,3,2,2,1,2,3,2,1,3,1,2,2,3,1,2,3,2,1,3,2,1,3,2,1,3,2,1,2,3,1,3,2,1,3,1,2,3,2,1,2,2,3,1,2,2,2,3,1,2,2,2,3,1,2,3,2,1,2,2,2,2,2,2,3,2,1,3,2,2,2,2,1,3,1,2,3,1,2,2,3,1,2,3,2,2,2,2,2,1,2,2,3,2,2,2,2,2,2,1,2,2,2,2,2,3,2,1,2,3,1,3,2,1,3,2,1,3,2,2,1,2,3,2,2,2,1,794,409,29,1186,66,407,2,181,2,1,617,127,372,250,14,353,368,185,448,454,119,24,184,2,2,105,9,1198,36,2,172,576,1160,681,305,187,102,209,338,804,343,1119,4,100,16,119,112,3,25,5,196,4,714,26,552,786,757,3043,4,20838683,413676,6,2398,5,2253,739,4,2960,3,1272,203,543,3,825,391,681,3,412,15,718,3425,2,1069,392,11,262,1993,280,3,105,433,181,74,61,927,3,435,3752088,2269436,2473307,138911,336029',kBL:'dPqS',kOPI:89978449};(function(){var a;((a=window.google)==null?0:a.stvsc)?google.kEI=_g.kEI:window.google=_g;}).call(this);})();(function(){google.sn='webhp';google.kHL='en-IN';})();(function(){
+‡var g=this||self;function k(){return window.google&amp;&amp;window.google.kOPI||null};var l,m=[];function n(a){for(var b;a&amp;&amp;(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||l}function p(a){for(var b=null;a&amp;&amp;(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b}function q(a){/^http:/i.test(a)&amp;&amp;window.location.protocol==="https:"&amp;&amp;(google.ml&amp;&amp;google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a}
+˙
+function r(a,b,d,c,h){var e="";b.search("&amp;ei=")===-1&amp;&amp;(e="&amp;ei="+n(c),b.search("&amp;lei=")===-1&amp;&amp;(c=p(c))&amp;&amp;(e+="&amp;lei="+c));var f=b.search("&amp;cshid=")===-1&amp;&amp;a!=="slh";c="&amp;zx="+Date.now().toString();g._cshid&amp;&amp;f&amp;&amp;(c+="&amp;cshid="+g._cshid);(d=d())&amp;&amp;(c+="&amp;opi="+d);return"/"+(h||"gen_204")+"?atyp=i&amp;ct="+String(a)+"&amp;cad="+(b+e+c)};l=google.kEI;google.getEI=n;google.getLEI=p;google.ml=function(){return null};google.log=function(a,b,d,c,h,e){e=e===void 0?k:e;d||(d=r(a,b,e,c,h));if(d=q(d)){a=new Image;var f=m.length;m[f]=a;a.onerror=a.onload=a.onabort=function(){delete m[f]};a.src=d}};google.logUrl=function(a,b){b=b===void 0?k:b;return r("",a,b)};}).call(this);(function(){google.y={};google.sy=[];var d;(d=google).x||(d.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1});var e;(e=google).sx||(e.sx=function(a){google.sy.push(a)});google.lm=[];var f;(f=google).plm||(f.plm=function(a){google.lm.push.apply(google.lm,a)});google.lq=[];var g;(g=google).load||(g.load=function(a,b,c){google.lq.push([[a],b,c])});var h;(h=google).loadAll||(h.loadAll=function(a,b){google.lq.push([a,b])});google.bx=!1;var k;(k=google).lx||(k.lx=function(){});var l=[],m;(m=google).fce||(m.fce=function(a,b,c,n){l.push([a,b,c,n])});google.qce=l;}).call(this);google.f={};(function(){
+àdocument.documentElement.addEventListener("submit",function(b){var a;if(a=b.target){var c=a.getAttribute("data-submitfalse");a=c==="1"||c==="q"&amp;&amp;!a.elements.q.value?!0:!1}else a=!1;a&amp;&amp;(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener("click",function(b){var a;a:{for(a=b.target;a&amp;&amp;a!==document.documentElement;a=a.parentElement)if(a.tagName==="A"){a=a.getAttribute("data-nohref")==="1";break a}a=!1}a&amp;&amp;b.preventDefault()},!0);}).call(this);</script>
+ﬁ    <style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}
+	</style>
+™    <style>body,td,a,p,.h{font-family:sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#1967d2}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px sans-serif}.gsfs{font:17px sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}body{background:#fff;color:#000}a{color:#681da8;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#1967d2}a:visited{color:#681da8}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#f8f9fa;border:solid 1px;border-color:#dadce0 #70757a #70757a #dadce0;height:30px}.lsbb{display:block}#WqQANb a{display:inline-block;margin:0 12px}.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;color:#000;border:none;cursor:pointer;height:30px;margin:0;outline:0;font:15px sans-serif;vertical-align:top}.lsb:active{background:#dadce0}.lst:focus{outline:none}</style>
+î    <script nonce="yCaejhYMpMQta_P86Xt3Jg">(function(){window.google.erd={jsr:1,bv:2234,de:true,dpf:'9laR0J3xucY1xeuvSTY3_MbXtYRgeMZ1tT_QrD4nP2Y'};
+∑var g=this||self;var k,l=(k=g.mei)!=null?k:1,m,p=(m=g.diel)!=null?m:0,q,r=(q=g.sdo)!=null?q:!0,t=0,u,w=google.erd,x=w.jsr;google.ml=function(a,b,d,n,e){e=e===void 0?2:e;b&amp;&amp;(u=a&amp;&amp;a.message);d===void 0&amp;&amp;(d={});d.cad="ple_"+google.ple+".aple_"+google.aple;if(google.dl)return google.dl(a,e,d,!0),null;b=d;if(x&lt;0){window.console&amp;&amp;console.error(a,b);if(x===-2)throw a;b=!1}else b=!a||!a.message||a.message==="Error loading script"||t&gt;=l&amp;&amp;!n?!1:!0;if(!b)return null;t++;d=d||{};b=encodeURIComponent;var c="/gen_204?atyp=i&amp;ei="+b(google.kEI);google.kEXPI&amp;&amp;(c+="&amp;jexpid="+b(google.kEXPI));c+="&amp;srcpg="+b(google.sn)+"&amp;jsr="+b(w.jsr)+
+ì"&amp;bver="+b(w.bv);w.dpf&amp;&amp;(c+="&amp;dpf="+b(w.dpf));var f=a.lineNumber;f!==void 0&amp;&amp;(c+="&amp;line="+f);var h=a.fileName;h&amp;&amp;(h.indexOf("-extension:/")&gt;0&amp;&amp;(e=3),c+="&amp;script="+b(h),f&amp;&amp;h===window.location.href&amp;&amp;(f=document.documentElement.outerHTML.split("\n")[f],c+="&amp;cad="+b(f?f.substring(0,300):"No script found.")));google.ple&amp;&amp;google.ple===1&amp;&amp;(e=2);c+="&amp;jsel="+e;for(var v in d)c+="&amp;",c+=b(v),c+="=",c+=b(d[v]);c=c+"&amp;emsg="+b(a.name+": "+a.message);c=c+"&amp;jsst="+b(a.stack||"N/A");c.length&gt;=12288&amp;&amp;(c=c.substr(0,12288));a=c;n||google.log(0,"",a);return a};window.onerror=function(a,b,d,n,e){u!==a&amp;&amp;(a=e instanceof Error?e:Error(a),d===void 0||"lineNumber"in a||(a.lineNumber=d),b===void 0||"fileName"in a||(a.fileName=b),google.ml(a,!1,void 0,!1,a.name==="SyntaxError"||a.message.substring(0,11)==="SyntaxError"||a.message.indexOf("Script error")!==-1?3:p));u=null;r&amp;&amp;t&gt;=l&amp;&amp;(window.onerror=null)};})();</script>
+
+  </head>
+  <body bgcolor="#fff">
+‘    <script nonce="yCaejhYMpMQta_P86Xt3Jg">(function(){var src='/images/nav_logo229.png';var iesg=false;document.body.onload = function(){window.n &amp;&amp; window.n();if (document.images){new Image().src=src;}
+eif (!iesg){document.f&amp;&amp;document.f.q.focus();document.gbqf&amp;&amp;document.gbqf.q.focus();}
+}
+})();</script>
+    <div id="mngb">
+      <div id="gbar">
+        <nobr>
+$          <b class="gb1">Search</b>
+f          <a shape="rect" class="gb1" href="https://www.google.com/imghp?hl=en&amp;tab=wi">Images</a>
+f          <a shape="rect" class="gb1" href="https://maps.google.co.in/maps?hl=en&amp;tab=wl">Maps</a>
+`          <a shape="rect" class="gb1" href="https://play.google.com/?hl=en&amp;tab=w8">Play</a>
+Y          <a shape="rect" class="gb1" href="https://www.youtube.com/?tab=w1">YouTube</a>
+V          <a shape="rect" class="gb1" href="https://news.google.com/?tab=wn">News</a>
+\          <a shape="rect" class="gb1" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+X          <a shape="rect" class="gb1" href="https://drive.google.com/?tab=wo">Drive</a>
+Ç          <a shape="rect" class="gb1" style="text-decoration:none" href="https://www.google.co.in/intl/en/about/products?tab=wh">
+            <u>More</u>
+ ¬ª          </a>
+        </nobr>
+      </div>
+$      <div id="guser" width="100%">
+        <nobr>
+'          <span class="gbi" id="gbn"/>
+'          <span class="gbf" id="gbf"/>
+          <span id="gbe"/>
+j          <a shape="rect" class="gb4" href="http://www.google.co.in/history/optout?hl=en">Web History</a>
+P |           <a shape="rect" class="gb4" href="/preferences?hl=en">Settings</a>
+» |           <a shape="rect" class="gb4" id="gb_70" target="_top" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAAQ">Sign in</a>
+        </nobr>
+      </div>
+(      <div class="gbh" style="left:0"/>
+)      <div class="gbh" style="right:0"/>
+    </div>
+    <center>
+"      <br clear="all" id="lgpd"/>
+      <div id="XjhHGf">
+∞        <img id="hplogo" alt="Google" height="92" src="/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" style="padding:28px 0 14px" width="272"/>
+        <br clear="none"/>
+        <br clear="none"/>
+      </div>
+`      <form enctype="application/x-www-form-urlencoded" method="get" action="/search" name="f">
+0        <table cellpadding="0" cellspacing="0">
+          <tr valign="top">
+<            <td colspan="1" rowspan="1" width="25%">¬†</td>
+B            <td align="center" colspan="1" nowrap="" rowspan="1">
+B              <input type="hidden" name="ie" value="ISO-8859-1"/>
+=              <input type="hidden" value="en-IN" name="hl"/>
+>              <input type="hidden" name="source" value="hp"/>
+0              <input type="hidden" name="biw"/>
+0              <input type="hidden" name="bih"/>
+@              <div class="ds" style="height:32px;margin:4px 0">
+Ã                <input maxlength="2048" type="text" class="lst" style="margin:0;padding:5px 8px 0 6px;vertical-align:top;color:#000" autocomplete="off" value="" title="Google Search" name="q" size="57"/>
+              </div>
+7              <br clear="none" style="line-height:0"/>
+               <span class="ds">
+$                <span class="lsbb">
+W                  <input type="submit" class="lsb" value="Google Search" name="btnG"/>
+                </span>
+              </span>
+               <span class="ds">
+$                <span class="lsbb">
+Ä                  <input type="submit" class="lsb" id="tsuid_F35KaM7yBs-v5OUPpajzsQE_1" value="I'm Feeling Lucky" name="btnI"/>
+Ä                  <script nonce="yCaejhYMpMQta_P86Xt3Jg">(function(){var id='tsuid_F35KaM7yBs-v5OUPpajzsQE_1';document.getElementById(id).onclick = function(){if (this.form.q.value){this.checked = 1;if (this.form.iflsig)this.form.iflsig.disabled = false;}
+/else top.location='/doodles/';};})();</script>
+l                  <input type="hidden" value="AOw8s4IAAAAAaEqMJ3k9j5RCnhrW5oVKjOja8u8YS4Gq" name="iflsig"/>
+                </span>
+              </span>
+            </td>
+\            <td align="left" colspan="1" nowrap="" rowspan="1" class="fl sblc" width="25%">
+b              <a shape="rect" href="/advanced_search?hl=en-IN&amp;authuser=0">Advanced search</a>
+            </td>
+          </tr>
+        </table>
+=        <input type="hidden" id="gbv" name="gbv" value="1"/>
+√        <script nonce="yCaejhYMpMQta_P86Xt3Jg">(function(){var a,b="1";if(document&amp;&amp;document.getElementById)if(typeof XMLHttpRequest!="undefined")b="2";else if(typeof ActiveXObject!="undefined"){var c,d,e=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"];for(c=0;d=e[c++];)try{new ActiveXObject(d),b="2"}catch(h){}}a=b;if(a=="2"&amp;&amp;location.search.indexOf("&amp;gbv=2")==-1){var f=google.gbvu,g=document.getElementById("gbv");g&amp;&amp;(g.value=a);f&amp;&amp;window.setTimeout(function(){location.href=f},0)};}).call(this);</script>
+      </form>
+3      <div style="font-size:83%;min-height:3.5em">
+        <br clear="none"/>
+P        <div id="gws-output-pages-elements-homepage_additional_languages__als">
+∑          <style>#gws-output-pages-elements-homepage_additional_languages__als{font-size:small;margin-bottom:24px}#SIvCob{color:#545454;display:inline-block;line-height:28px;}#SIvCob a{padding:0 3px;}.H6sW5{display:inline-block;margin:0 2px;white-space:nowrap}.z4hgWe{display:inline-block;margin:0 2px}</style>
+          <div id="SIvCob">
+ÎGoogle offered in:              <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCAY">‡§π‡§ø‡§®‡•ç‡§¶‡•Ä</a>
+‘            <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=bn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCAc">‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ</a>
+◊            <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=te&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCAg">‡∞§‡±Ü‡∞≤‡±Å‡∞ó‡±Å</a>
+‘            <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=mr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCAk">‡§Æ‡§∞‡§æ‡§†‡•Ä</a>
+‘            <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=ta&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCAo">‡Æ§‡ÆÆ‡Æø‡Æ¥‡Øç</a>
+⁄            <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=gu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCAs">‡™ó‡´Å‡™ú‡™∞‡™æ‡™§‡´Ä</a>
+‘            <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=kn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCAw">‡≤ï‡≤®‡≥ç‡≤®‡≤°</a>
+◊            <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=ml&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCA0">‡¥Æ‡¥≤‡¥Ø‡¥æ‡¥≥‡¥Ç</a>
+◊            <a shape="rect" href="https://www.google.com/setprefs?sig=0__Yc5SIQoZilQXMBPUrLwxovT95Q%3D&amp;hl=pa&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiO2vDTquuNAxXPF7kGHSXUPBYQ2ZgBCA4">‡®™‡©∞‡®ú‡®æ‡®¨‡©Ä</a>
+          </div>
+        </div>
+      </div>
+      <span id="footer"/>
+#      <div style="font-size:10pt">
+E        <div id="WqQANb" style="margin:19px auto;text-align:center">
+?          <a shape="rect" href="/intl/en/ads/">Advertising</a>
+Z          <a shape="rect" href="http://www.google.co.in/services/">Business Solutions</a>
+F          <a shape="rect" href="/intl/en/about.html">About Google</a>
+Æ          <a shape="rect" href="https://www.google.com/setprefdomain?prefdom=IN&amp;prev=https://www.google.co.in/&amp;sig=K_3RfHf8ETV6rn4ONUkTyXUYrDMuQ%3D">Google.co.in</a>
+        </div>
+      </div>
+.      <p style="font-size:8pt;color:#636363">
+P¬© 2025 -         <a shape="rect" href="/intl/en/policies/privacy/">Privacy</a>
+E -         <a shape="rect" href="/intl/en/policies/terms/">Terms</a>
+      </p>
+    </center>
+ô    <script nonce="yCaejhYMpMQta_P86Xt3Jg">(function(){window.google.cdo={height:757,width:1440};(function(){var a=window.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.document,d=c.compatMode=="CSS1Compat"?c.documentElement:c.body;a=d.clientWidth;b=d.clientHeight}if(a&amp;&amp;b&amp;&amp;(a!=google.cdo.width||b!=google.cdo.height)){var e=google,f=e.log,g="/client_204?&amp;atyp=i&amp;biw="+a+"&amp;bih="+b+"&amp;ei="+google.kEI,h="",k=window.google&amp;&amp;window.google.kOPI||null;k&amp;&amp;(h+="&amp;opi="+k);f.call(e,"","",g+h)};}).call(this);})();(function(){google.xjs={basecomb:'/xjs/_/js/k\x3dxjs.hp.en.akvOeAd9im0.es5.O/ck\x3dxjs.hp.83EdeYucqE4.L.X.O/am\x3dAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXAIIEEAAAAAAQAAAAAAAAAACIAQAQAQAAAAAAoSQCIAwEAAGgBACIQADlA6QEAgAAgAAAAAgAEAAAgBABAAAAAgAAAAAAMgPA4IAAAABAQCwICAAAAiEc/d\x3d1/ed\x3d1/dg\x3d0/ujg\x3d1/rs\x3dACT90oEr_Tz5hQSe6x-HPQITEn5aUtSYuQ',basecss:'/xjs/_/ss/k\x3dxjs.hp.83EdeYucqE4.L.X.O/am\x3dAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXAIIAEAAAAAAAAAAAAAAAAACAAAAQAQAAAAAAoCQAIAAAAAGgBACIQADlA6QEAgAAgAAAAAgAEAAAgBABAAAAAgAAAAAAAACAAAAAAAAAQAAI/rs\x3dACT90oHKy41ipH_MHFTjiXh0BsBOW2on0A',basejs:'/xjs/_/js/k\x3dxjs.hp.en.akvOeAd9im0.es5.O/am\x3dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAQAAAAAAAAAACIAQAQAAAAAAAAAQACAAwEAAEgBAAAAADgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAMgPA4IAAAABAQCwICAAAAiEc/dg\x3d0/rs\x3dACT90oGqSPqy80NgqnwShQh_YVuj6c19gA',excm:[]};})();(function(){var u='/xjs/_/js/k\x3dxjs.hp.en.akvOeAd9im0.es5.O/am\x3dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAQAAAAAAAAAACIAQAQAAAAAAAAAQACAAwEAAEgBAAAAADgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAMgPA4IAAAABAQCwICAAAAiEc/d\x3d1/ed\x3d1/dg\x3d3/rs\x3dACT90oGqSPqy80NgqnwShQh_YVuj6c19gA/m\x3dsb_he,d';var st=1;var amd=1000;var mmd=0;var pod=true;var pop=true;var povp=false;var fp='';
+–var e=this||self;function f(){var b,a,d;if(a=b=(a=window.google)==null?void 0:(d=a.ia)==null?void 0:d.r.B2Jtyd)a=b.m,a=a===1||a===5;return a&amp;&amp;b.cbfd!=null&amp;&amp;b.cbvi!=null?b:void 0};function g(){var b=[u];if(!google.dp){for(var a=0;a&lt;b.length;a++){var d=b[a],c=document.createElement("link");c.as="script";c.href=d;c.rel="preload";document.body.appendChild(c)}google.dp=!0}};google.ps===void 0&amp;&amp;(google.ps=[]);function h(){var b=u,a=function(){};google.lx=google.stvsc?a:function(){k(b);google.lx=a};google.bx||google.lx()}function l(b,a){a&amp;&amp;(b.src=a);fp&amp;&amp;google.caft&amp;&amp;google.caft(function(){b.fetchPriority=fp});var d=b.onload;b.onload=function(c){d&amp;&amp;d(c);google.ps=google.ps.filter(function(G){return b!==G})};google.ps.push(b);document.body.appendChild(b)}google.as=l;function k(b){google.timers&amp;&amp;google.timers.load&amp;&amp;google.tick&amp;&amp;google.tick("load","xjsls");var a=document.createElement("script");a.onerror=function(){google.ple=1};a.onload=function(){google.ple=0};google.xjsus=void 0;l(a,b);google.aple=-1;google.dp=!0};function m(b){var a=b.getAttribute("jscontroller");return(a==="UBXHI"||a==="R3fhkb"||a==="TSZEqd")&amp;&amp;b.hasAttribute("data-src")}function n(){for(var b=document.getElementsByTagName("img"),a=0,d=b.length;a&lt;d;a++){var c=b[a];if(c.hasAttribute("data-lzy_")&amp;&amp;Number(c.getAttribute("data-atf"))&amp;1&amp;&amp;!m(c))return!0}return!1}for(var p=document.getElementsByTagName("img"),q=0,r=p.length;q&lt;r;++q){var t=p[q];Number(t.getAttribute("data-atf"))&amp;1&amp;&amp;m(t)&amp;&amp;(t.src=t.getAttribute("data-src"))};var w,x,y,z,A,B,C,D,E,F;function H(){google.xjsu=u;e._F_jsUrl=u;A=function(){h()};w=!1;x=(st===1||st===3)&amp;&amp;!!google.caft&amp;&amp;!n();y=f();z=(st===2||st===3)&amp;&amp;!!y&amp;&amp;!n();B=pod;C=pop;D=povp;E=pop&amp;&amp;document.prerendering||povp&amp;&amp;document.hidden;F=D?"visibilitychange":"prerenderingchange"}function I(){w||x||z||E||(A(),w=!0)}
+∏setTimeout(function(){google&amp;&amp;google.tick&amp;&amp;google.timers&amp;&amp;google.timers.load&amp;&amp;google.tick("load","xjspls");H();if(x||z||E){if(x){var b=function(){x=!1;I()};google.caft(b);window.setTimeout(b,amd)}z&amp;&amp;(b=function(){z=!1;I()},y.cbvi.push(b),window.setTimeout(b,mmd));if(E){var a=function(){(D?document.hidden:document.prerendering)||(E=!1,I(),document.removeEventListener(F,a))};document.addEventListener(F,a,{passive:!0})}if(B||C||D)w||g()}else A()},0);})();window._ = window._ || {};window._DumpException = _._DumpException = function(e){throw e;};window._s = window._s || {};_s._DumpException = _._DumpException;window._qs = window._qs || {};_qs._DumpException = _._DumpException;(function(){var t=[0,16384,0,0,0,0,0,805912576,295200,268435456,17047552,0,10752,354418705,7049,570430282,4264707,167773664,59769090,31568,2164864,524288,64,268435720,20971520,2,252182720,2062,186126336,2056,75005952];window._F_toggles = window._xjs_toggles = t;})();window._F_installCss = window._F_installCss || function(css){};(function(){google.jl={bfl:0,dw:false,eli:false,ine:false,ubm:false,uwp:true,vs:false};})();(function(){var pmc='{\x22d\x22:{},\x22sb_he\x22:{\x22client\x22:\x22heirloom-hp\x22,\x22dh\x22:true,\x22ds\x22:\x22\x22,\x22host\x22:\x22google.com\x22,\x22jsonp\x22:true,\x22msgs\x22:{\x22cibl\x22:\x22Clear Search\x22,\x22dym\x22:\x22Did you mean:\x22,\x22lcky\x22:\x22I\\u0026#39;m Feeling Lucky\x22,\x22lml\x22:\x22Learn more\x22,\x22psrc\x22:\x22This search was removed from your \\u003Ca href\x3d\\\x22/history\\\x22\\u003EWeb History\\u003C/a\\u003E\x22,\x22psrl\x22:\x22Remove\x22,\x22sbit\x22:\x22Search by image\x22,\x22srch\x22:\x22Google Search\x22},\x22ovr\x22:{},\x22pq\x22:\x22\x22,\x22rfs\x22:[],\x22stok\x22:\x226Rzgcnof-1lX9hIchWmrXZb0Z9o\x22}}';google.pmc=JSON.parse(pmc);})();</script>
+
+  </body>
+	</html>
+Request method:	POST
+!Request URI:	https://google.com
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+H				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+!HTTP/1.1 405 Method Not Allowed
+(Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1589
+%Date: Thu, 12 Jun 2025 07:13:28 GMT
+9Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<html lang="en">
+	  <head>
+    <meta charset="utf-8"/>
+[    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width"/>
+5    <title>Error 405 (Method Not Allowed)!!1</title>
+    <style>
+Ù    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* &gt; body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+
+  </head>
+	  <body>
+.    <a shape="rect" href="//www.google.com/">
+,      <span id="logo" aria-label="Google"/>
+	    </a>
+    <p>
+      <b>405.</b>
+$      <ins>That‚Äôs an error.</ins>
+	    </p>
+    <p>
++The request method       <code>POST</code>
+3 is inappropriate for the URL       <code>/</code>
+*.        <ins>That‚Äôs all we know.</ins>
+	    </p>
+
+  </body>
+	</html>

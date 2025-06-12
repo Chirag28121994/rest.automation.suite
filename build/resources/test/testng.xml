@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SpringBootTestSuite">
+    <test name="SampleTests">
+        <classes>
+            <class name="com.example.rest.automation.suite.demo.DemoApiTest"/>
+        </classes>
+    </test>
+</suite>
