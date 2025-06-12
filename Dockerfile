@@ -22,6 +22,11 @@ WORKDIR /app
 # Copy the built bootJar for running the app
 COPY --from=build /home/gradle/project/build/libs/app.jar app.jar
 
+# Expose port
+ENV PORT=10000
+
+EXPOSE 10000
+
 # Copy full source + gradlew for runtime gradle invocations
 COPY --from=build /home/gradle/project /app
 
